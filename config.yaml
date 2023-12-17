@@ -1,0 +1,7 @@
+#Configuration for log parser
+#all \ should be \\
+
+old_log_path: ".\\old.log"
+new_log_path: ".\\new.log"
+alert_regexp: ".*(\\d\\d/\\d\\d/\\d\\d\\d\\d-\\d\\d:\\d\\d:\\d\\d.\\d+) \\[\\*\\*\\] \\[\\d:(\\d+):\\d\\] (.*) \\[\\*\\*\\] \\[Classification: .*\\] {\\w*} .*:\\d* -> .*:\\d*"
+file_regexp: ".*Processing: '[\\/a-zA-Z0-9_\\-\\.]+\\/(.*)'"
